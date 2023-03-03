@@ -1,0 +1,30 @@
+<%- include("partials/header") -%>
+
+
+
+
+<h1>Contact</h1>
+<p><%= contactContent %> <br> Thank you for your interest in our site, and we look forward to hearing from you soon!</p>
+
+<br>
+<form action="mailto:nikunjkhinchi25@hotmail.com" method="post" enctype="text/plain">
+    <div class="form-group">   
+    <label class="form-label" >Name</label>
+    <input type="text"  class="form-control" name="yourname " value="" placeholder="Your Name"><br>
+    <label class="form-label" >Email</label>
+    <input type="email" class="form-control" name = "yourEmail " placeholder="@gmail.com"><br>
+    <label class="form-label">Message</label><br>
+    <textarea name="yourMessage" class="form-control"  cols="35" rows="5" placeholder="Feedback"  ></textarea>
+    
+  
+
+</div>
+<input type="submit" value = "Submit" class="btn btn-primary" >
+  </form>
+
+
+
+
+
+
+<%- include("partials/footer") -%>
